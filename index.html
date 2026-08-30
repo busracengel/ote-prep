@@ -6860,10 +6860,6 @@ function showToast(msg){
 if('speechSynthesis' in window){ window.speechSynthesis.onvoiceschanged = () => {}; }
 render();
 </script>
-<script>
-if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
-}
-</script>
+  
 </body>
 </html>
