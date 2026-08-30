@@ -1,0 +1,9 @@
+{
+  "name": "OTE Prep",
+  "short_name": "OTE Prep",
+  "start_url": "/ote-prep/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": []
+}
